@@ -1,0 +1,8 @@
+body {
+  margin: 10;
+  padding: 10;
+  font-family: sans-serif;
+  overflow: hidden;
+  height: 300px;
+  background-color:rgb(138, 197, 245);
+}

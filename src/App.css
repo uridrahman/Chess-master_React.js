@@ -1,0 +1,41 @@
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+.wrapper {
+	position: relative;
+	left: 100px;
+	top: 50px;
+	
+}
+.interactive-view {
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+.highlight {
+	position: absolute;
+}
+.game-over {
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: rgb(255, 254, 254);
+	opacity: .8;
+	cursor: pointer;
+}
+button {
+	background-color: blueviolet;
+	color: aqua;
+}
+strong{
+	color:rgb(43, 255, 0);
+}
